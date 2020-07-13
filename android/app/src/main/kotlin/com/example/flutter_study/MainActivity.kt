@@ -1,4 +1,4 @@
-package com.example.flutter_study
+package com.example.flutter_auction_module
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,5 +1,5 @@
-name: flutter_study
-description: A new Flutter project.
+name: flutter_auction_module
+description: flutter_auction_module
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -28,13 +28,38 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
   flutter_swiper: ^1.1.6
+  # 网络请求
   dio: ^3.0.9
+  cookie_jar: ^1.0.0
+  dio_cookie_manager: ^1.0.0
+  # 本地存储
   shared_preferences: ^0.5.7+3
-  json_annotation: ^3.0.0
+  # json 序列化
+  json_annotation: ^3.0.1
+  # webview
+  flutter_webview_plugin: ^0.3.11
+  # 状态管理
+  scoped_model: ^1.0.1
+  provider: ^4.2.0
+  # 查找文件系统上的常用位置
+  path_provider: ^1.6.11
+  # 原生与flutter交互
+  flutter_boost: ^1.12.13+3
+  # 获取设备信息
+  device_info: ^0.4.0+1
+  # 获取版本信息
+  package_info: ^0.4.1
+  # 自适应屏幕
+  flutter_screenutil: ^2.2.0
+  # loading
+  flutter_spinkit: ^4.1.2+1
+  # toast
+  fluttertoast: ^6.0.1
 
 dev_dependencies:
-  json_serializable: ^3.3.0
+  # json 序列化
   build_runner: ^1.10.0
+  json_serializable: ^3.3.0
 
   flutter_test:
     sdk: flutter
@@ -50,6 +75,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - lib/assets/images/head-logo.png
+
+  fonts:
+    - family: iconfont
+      fonts:
+        - asset: lib/assets/fonts/iconfont.ttf
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see
